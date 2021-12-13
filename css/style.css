@@ -1,12 +1,18 @@
 body{
-    color: aqua;
+    color: black;
     text-align: left;
     font-family: arial;
 }
 
+#cabecera{
+    background-color:  #88f;
+    color: white;
+    margin: 0;
+    padding: 0.5em;
+}
 #container{
     width: 70%;
-    padding: 1em;
+    padding: 0;
     text-align: left;
     border: 1px solid #ddd;
     margin: 0 auto;
@@ -14,4 +20,8 @@ body{
 
 #container h1{
     font-size: 20px;
+    text-align: center;
+}
+#span{
+    align-items: right;
 }
